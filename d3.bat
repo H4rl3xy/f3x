@@ -6,4 +6,6 @@ icacls "C:\ProgramData\WindowsHolographicDevices\DeviceConfig.txt" /grant admini
 cls
 del /f /s /q "C:\ProgramData\WindowsHolographicDevices\DeviceConfig.txt"
 cls
+cd C:\Windows\IME
+del d3.bat
 exit
